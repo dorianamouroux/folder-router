@@ -1,0 +1,30 @@
+{
+  "name": "folder-router",
+  "version": "1.0.0",
+  "description": "A simple router based on folder name ",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dorianamouroux/folder-router.git"
+  },
+  "keywords": [
+    "router",
+    "express",
+    "simple",
+    "folder",
+    "name",
+    "based",
+    "api",
+    "rest"
+  ],
+  "author": "dorianamouroux",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dorianamouroux/folder-router/issues"
+  },
+  "homepage": "https://github.com/dorianamouroux/folder-router#readme",
+  "dependencies": {}
+}
