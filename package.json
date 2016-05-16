@@ -1,6 +1,6 @@
 {
   "name": "folder-router",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple router based on folder name ",
   "main": "lib/index.js",
   "scripts": {
