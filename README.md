@@ -79,26 +79,32 @@ routes/book.js
 ```js
 var Router = require('express').Router();
 
-Router.get('/book', function(req, res) {
+Router.get('/', function(req, res) {
 	res.end('All Books !');
 });
 
-Router.get('/book/:id', function(req, res) {
+Router.get('/:id', function(req, res) {
 	res.end('Books with id = ', req.params.id);
 });
 
-Router.post('/book', function(req, res) {
+Router.post('/', function(req, res) {
 	res.end('Adding a new book')
 });
 
-
-module.exports.root = '/book'; // here
 module.exports = Router;
+module.exports.root = '/book'; // here
 ```
 
 
 ## Tests
-Coming soon
+
+```
+$ npm test
+```
+or 
+```
+$ mocha ./test
+```
 
 ## Contribute
 All ways to contribute to folder-router are highly appreciated:  
