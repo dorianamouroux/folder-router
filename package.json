@@ -4,7 +4,7 @@
   "description": "A simple router based on folder name ",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha ./test"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,9 @@
     "url": "https://github.com/dorianamouroux/folder-router/issues"
   },
   "homepage": "https://github.com/dorianamouroux/folder-router#readme",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "express": "^4.13.4",
+    "supertest": "^1.2.0"
+  }
 }
