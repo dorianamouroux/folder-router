@@ -24,7 +24,7 @@ app.listen(3000);
 
 ## Creating your routes
 
-In your routes directory, you can create as much as file as you want, everything will be read and add to express by folder-router. A route file MUST export a express.Router() instance as below  :
+In your routes directory, you can create as much as file as you want, everything will be read and add to express by folder-router. A route file MUST export a express.Router() instance as below:
 
 routes/book.js
 ```js
@@ -111,8 +111,8 @@ router(app, {
 app.listen(3000);
 ```
 
-so now the endpoints will end up like:
-Here is the list of all end points :
+So now the endpoints will end up like:
+
 - GET http://localhost:3000/book/book
 - GET http://localhost:3000/book/book/5
 - POST http://localhost:3000/book/book
