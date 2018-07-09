@@ -5,10 +5,10 @@ const router = require('../');
 
 const routesPath = path.join(__dirname, 'server', 'routes');
 
-const createApp = (config = routesPath) => {
+const createApp = (options = routesPath) => {
   const app = express();
 
-  router(app, config);
+  router(app, options);
 
   return app;
 };
