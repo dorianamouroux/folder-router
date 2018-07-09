@@ -10,4 +10,4 @@ Router.get('/:id', function (req, res) {
 
 module.exports = Router;
 
-module.exports.root = '/book';
+module.exports.root = '/books';
