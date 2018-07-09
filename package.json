@@ -1,9 +1,11 @@
 {
   "name": "folder-router",
-  "version": "1.0.4",
-  "description": "A simple router based on folder name ",
+  "version": "2.0.0",
+  "description": "A simple router based on folder name",
   "main": "lib/index.js",
   "scripts": {
+    "lint": "semistandard --fix --env mocha",
+    "pretest": "npm run lint",
     "test": "mocha ./test"
   },
   "repository": {
@@ -21,14 +23,15 @@
     "rest"
   ],
   "author": "dorianamouroux",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/dorianamouroux/folder-router/issues"
   },
   "homepage": "https://github.com/dorianamouroux/folder-router#readme",
-  "dependencies": {},
   "devDependencies": {
     "express": "^4.13.4",
+    "mocha": "^5.2.0",
+    "semistandard": "*",
     "supertest": "^1.2.0"
   }
 }
